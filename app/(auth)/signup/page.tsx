@@ -7,7 +7,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="h-full flex justify-center items-center">
-      <div className="min-w-sm flex flex-col gap-12 bg-black p-8 rounded-lg">
+      <div className="min-w-md flex flex-col gap-12 bg-black p-8 rounded-lg">
         <h1 className="text-white font-bold font-geist self-center text-3xl">
           Signup
         </h1>

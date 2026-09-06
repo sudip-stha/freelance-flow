@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Inter } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
 
 const geist = Geist({
   variable: "--font-geist",
@@ -23,7 +24,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geist.variable} ${inter.variable} h-full bg-main-bg`}
     >
-      <body className="h-full bg-main-bg">{children}</body>
+      <body className="h-full bg-main-bg">
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
