@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col gap-6 mt-14">
+    <div className="flex flex-col gap-6 mt-14 mx-4">
       <div className="flex flex-col gap-2 items-center text-primary-text">
-        <h1 className="font-geist font-bold text-4xl">
+        <h1 className="font-geist font-bold text-2xl md:text-4xl">
           Manage your freelance work. All in one flow.
         </h1>
         <p className="font-inter text-sm">

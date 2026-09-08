@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Logo from "@/components/ui/Logo";
+import Features from "@/features/landing/components/Features";
 import HeroSection from "@/features/landing/components/HeroSection";
 import Link from "next/link";
 
@@ -17,8 +18,9 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="flex justify-center">
-      <HeroSection />
+      <div className="flex gap-14 justify-center items-center flex-col">
+        <HeroSection />
+        <Features />
       </div>
     </div>
   );
