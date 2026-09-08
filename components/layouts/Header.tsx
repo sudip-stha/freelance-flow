@@ -1,9 +1,19 @@
 import Image from "next/image";
 
 const Header = () => {
+  const date = new Date();
+
+  const formatDate = date
+    .toLocaleDateString("en-us", {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      year: "numeric",
+    })
+    .toUpperCase();
   return (
-    <div className="flex justify-between items-center p-5 border-b border-border font-geist">
-      <h2>Tuesday, March 19, 2024</h2>
+    <div className="flex justify-between items-center p-5 border-b-2 border-border font-geist">
+      <h2 className="font-semibold text-primary-text text-md">{formatDate}</h2>
       <div className="flex items-center gap-5">
         <Image
           src="icons/notificationIcon.svg"

@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/layouts/Header";
-import Aside from "@/components/layouts/Aside";
 
 const geist = Geist({
   variable: "--font-geist",
@@ -25,13 +23,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geist.variable} ${inter.variable} h-full bg-main-bg`}
     >
-      <body className="h-full bg-main-bg flex">
-        <Aside />
-        <div className="flex flex-col w-full">
-          <Header />
-          <main>{children}</main>
-        </div>
-      </body>
+      <body className="h-full bg-main-bg flex">{children}</body>
     </html>
   );
 }

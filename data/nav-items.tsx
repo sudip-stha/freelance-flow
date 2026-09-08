@@ -3,7 +3,7 @@ import { NavItems } from "@/type/data";
 const navItems: NavItems[] = [
   {
     label: "Overview",
-    url: "/",
+    url: "/overview",
   },
   {
     label: "Projects",
