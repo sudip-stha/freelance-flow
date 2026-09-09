@@ -1,6 +1,7 @@
 import { buttonVariants } from "@/components/ui/button";
 import Logo from "@/components/ui/Logo";
 import Features from "@/features/landing/components/Features";
+import Footer from "@/features/landing/components/Footer";
 import HeroSection from "@/features/landing/components/HeroSection";
 import HowItWork from "@/features/landing/components/HowItWork";
 import Link from "next/link";
@@ -29,6 +30,7 @@ export default function Home() {
         <HeroSection />
         <Features />
         <HowItWork />
+        <Footer />
       </div>
     </div>
   );
