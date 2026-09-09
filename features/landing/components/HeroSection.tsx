@@ -1,4 +1,5 @@
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -12,9 +13,12 @@ const HeroSection = () => {
           deadlines from one simple workspace.
         </p>
       </div>
-      <Button size={"sm"} className="self-center">
+      <Link
+        href="/signup"
+        className={`${buttonVariants({ size: "sm" })} self-center`}
+      >
         Get Started ➡️
-      </Button>
+      </Link>
     </div>
   );
 };
