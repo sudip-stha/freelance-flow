@@ -1,4 +1,4 @@
-import howItWorks from "@/data/howItWork-data";
+import howItWorks from "@/features/landing/data/howItWork-data";
 
 const HowItWork = () => {
   return (

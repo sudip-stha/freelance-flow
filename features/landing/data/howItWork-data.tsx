@@ -1,4 +1,4 @@
-import { HowItWorkData } from "@/type/data";
+import { HowItWorkData } from "../type/data";
 
 const howItWorks: HowItWorkData[] = [
   {

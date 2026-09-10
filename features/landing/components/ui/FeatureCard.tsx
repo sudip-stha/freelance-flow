@@ -1,4 +1,4 @@
-import { FeatureCardProps } from "@/type/data";
+import { FeatureCardProps } from "../../type/data";
 
 const FeatureCard = ({ data }: FeatureCardProps) => {
   return (

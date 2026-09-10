@@ -1,5 +1,5 @@
-import featuresData from "@/data/feature-data";
-import FeatureCard from "../ui/FeatureCard";
+import featuresData from "@/features/landing/data/feature-data";
+import FeatureCard from "./ui/FeatureCard";
 
 const Features = () => {
   return (
