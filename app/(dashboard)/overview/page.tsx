@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button";
 import OverviewStats from "@/features/overview/components/OverviewStats";
+import ProjectsInMotion from "@/features/overview/components/ProjectsInMotion";
 import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="flex flex-col gap-6 px-8 py-6">
+    <div className="flex flex-col gap-10 px-8 py-6">
       <span className="font-geist font-medium text-[12px] text-active-text">
         YOUR WORKSPACE
       </span>
@@ -17,8 +18,11 @@ const page = () => {
           New project
         </Button>
       </div>
-      <div>
+      <div className="flex flex-col gap-5">
         <OverviewStats />
+        <div>
+          <ProjectsInMotion />
+        </div>
       </div>
     </div>
   );
