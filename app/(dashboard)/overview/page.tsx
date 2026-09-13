@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import OverviewStats from "@/features/overview/components/OverviewStats";
 import ProjectsInMotion from "@/features/overview/components/ProjectsInMotion";
+import TodayFocus from "@/features/overview/components/TodayFocus";
 import Image from "next/image";
 
 const page = () => {
@@ -20,9 +21,8 @@ const page = () => {
       </div>
       <div className="flex flex-col gap-5">
         <OverviewStats />
-        <div>
-          <ProjectsInMotion />
-        </div>
+        <ProjectsInMotion />
+        <TodayFocus />
       </div>
     </div>
   );

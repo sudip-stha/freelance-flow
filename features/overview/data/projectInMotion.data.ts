@@ -1,6 +1,6 @@
-import { projectListType } from "../type/data";
+import { ProjectListType } from "../type/data";
 
-const projectList: projectListType[] = [
+const projectList: ProjectListType[] = [
   {
     id: 1,
     name: "Northstar product launch",
