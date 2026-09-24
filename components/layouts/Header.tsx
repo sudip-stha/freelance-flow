@@ -24,7 +24,7 @@ const Header = () => {
             height={18}
           />
         </Button>
-        <div className="bg-accent rounded-full px-2 py-1">
+        <div className="bg-accent rounded-full px-2 py-1 cursor-pointer">
           <span className="text-white text-[12px] font-semibold">AK</span>
         </div>
       </div>

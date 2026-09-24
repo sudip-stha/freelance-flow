@@ -20,11 +20,7 @@ const navItems: NavItems[] = [
   {
     label: "Flow Assistant",
     url: "/flow-assistant",
-  },
-  {
-    label: "Settings",
-    url: "/settings",
-  },
+  }
 ];
 
 export default navItems;
