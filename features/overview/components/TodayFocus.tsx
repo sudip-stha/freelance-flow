@@ -4,7 +4,7 @@ import priorityColor from "@/utils/priorityColor";
 
 const TodayFocus = () => {
   return (
-    <div className="flex flex-col gap-8 bg-card-bg border-2 border-border p-6 rounded-2xl">
+    <div className="flex flex-col gap-8 basis-[47%] bg-card-bg border-2 border-border p-6 rounded-2xl">
       <div>
         <h3 className="font-geist font-semibold text-xl">Today&apos;s focus</h3>
         <p className="font-inter text-xs text-tertiary-text">

@@ -4,11 +4,11 @@ import Logo from "../ui/Logo";
 
 const Aside = () => {
   return (
-    <div className="bg-aside-bg flex flex-col gap-12 px-14 py-9">
+    <aside className="fixed top-0 left-0 z-50 h-screen bg-aside-bg flex flex-col gap-12 px-14 py-9">
       <Logo />
       <NavList />
-    </div>
+    </aside>
   );
 };
-
+``
 export default Aside;

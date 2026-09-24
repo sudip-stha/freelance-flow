@@ -21,3 +21,10 @@ export interface TodayFocusType {
   projectName: string;
   priority: string;
 }
+
+export interface RecentActivityType {
+  id: number;
+  title: string;
+  activityMessage: string;
+  duration: string;
+}

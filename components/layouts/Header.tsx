@@ -13,7 +13,7 @@ const Header = () => {
     })
     .toUpperCase();
   return (
-    <div className="flex justify-between items-center px-8 py-5 border-b-2 border-border font-geist">
+    <div className="sticky top-0 z-40 bg-main-bg flex justify-between items-center px-8 py-5 border-b-2 border-border font-geist">
       <h2 className="font-semibold text-primary-text text-sm">{formatDate}</h2>
       <div className="flex items-center gap-5">
         <Button>

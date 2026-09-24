@@ -10,10 +10,17 @@ const ProjectProgressList = () => {
           <div key={data.id} className="flex flex-col gap-3">
             <div className="flex justify-between font-inter">
               <div className="flex gap-2 items-center">
-                <span className="text-lg font-semibold text-primary-text">{data.name}</span>
-                <span className="text-[10px] bg-accent px-3 py-1 rounded-2xl text-secondary-text">{data.company}</span>
+                <span className="bg-accent w-2 h-2 rounded-full"></span>
+                <span className="text-lg font-semibold text-primary-text">
+                  {data.name}
+                </span>
+                <span className="text-[10px] bg-accent px-3 py-1 rounded-2xl text-secondary-text">
+                  {data.company}
+                </span>
               </div>
-              <span className="text-tertiary-text text-sm">{data.taskCompletion}%</span>
+              <span className="text-tertiary-text text-sm">
+                {data.taskCompletion}%
+              </span>
             </div>
             <Progress value={data.taskCompletion} />
           </div>
