@@ -3,7 +3,6 @@ import OverviewStats from "@/features/overview/components/OverviewStats";
 import ProjectsInMotion from "@/features/overview/components/ProjectsInMotion";
 import RecentActivity from "@/features/overview/components/RecentActivity";
 import TodayFocus from "@/features/overview/components/TodayFocus";
-import Image from "next/image";
 import Link from "next/link";
 
 const page = () => {

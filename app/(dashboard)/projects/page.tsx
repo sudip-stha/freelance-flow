@@ -17,6 +17,10 @@ const page = () => {
           New project
         </Button>
       </div>
+      <div>
+        <Image src={"/icons/searchIcon.svg"} alt="" width={16} height={16} />
+        <input type="text" placeholder="Search projects or clients" />
+      </div>
     </div>
   );
 };
