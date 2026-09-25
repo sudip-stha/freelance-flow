@@ -10,5 +10,5 @@ const Aside = () => {
     </aside>
   );
 };
-``
+
 export default Aside;
