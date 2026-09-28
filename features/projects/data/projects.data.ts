@@ -1,0 +1,123 @@
+import { Project } from "../type/data";
+
+const projects: Project[] = [
+  {
+    id: 1,
+    title: "Mentra",
+    category: "Web Application",
+    status: "Completed",
+    client: "Personal Project",
+    progress: 100,
+    budget: 1200,
+    deadline: "2026-08-15",
+    startDate: "2026-05-15",
+    description:
+      "AI-powered career coaching platform designed to help tech professionals improve their career preparation.",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "PostgreSQL",
+    ],
+    tasks: [
+      "Build dashboard",
+      "Create AI resume builder",
+      "Implement mock interview",
+      "Build cover letter generator",
+      "Integrate AI features",
+    ],
+  },
+  {
+    id: 2,
+    title: "Travel World",
+    category: "Website",
+    status: "Completed",
+    client: "Travel Agency",
+    progress: 10,
+    budget: 800,
+    deadline: "2026-07-28",
+    startDate: "2026-07-01",
+    description:
+      "Travel website showcasing destinations, travel packages, and essential information for travelers.",
+    technologies: ["React", "JavaScript", "Vite", "Tailwind CSS"],
+    tasks: [
+      "Create landing page",
+      "Build destination sections",
+      "Create travel package cards",
+      "Implement responsive navigation",
+      "Add contact section",
+    ],
+  },
+  {
+    id: 3,
+    title: "FreelanceFlow",
+    category: "Dashboard",
+    status: "In Progress",
+    client: "Personal Project",
+    progress: 65,
+    budget: 1500,
+    deadline: "2026-10-20",
+    startDate: "2026-08-20",
+    description:
+      "Freelance management dashboard for tracking projects, clients, tasks, payments, and overall project progress.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand",
+      "Chart.js",
+    ],
+    tasks: [
+      "Build dashboard layout",
+      "Create project management system",
+      "Add project filtering",
+      "Implement project details modal",
+      "Build progress charts",
+    ],
+  },
+  {
+    id: 4,
+    title: "Weather Dashboard",
+    category: "Web Application",
+    status: "Completed",
+    client: "Personal Project",
+    progress: 50,
+    budget: 600,
+    deadline: "2026-06-18",
+    startDate: "2026-06-01",
+    description:
+      "Weather dashboard that allows users to search locations and view current weather conditions and forecasts.",
+    technologies: ["React", "JavaScript", "Vite", "CSS", "OpenWeather API"],
+    tasks: [
+      "Design weather interface",
+      "Integrate weather API",
+      "Implement location search",
+      "Display current conditions",
+      "Handle loading and error states",
+    ],
+  },
+  {
+    id: 5,
+    title: "Hotel Management",
+    category: "Dashboard",
+    status: "In Progress",
+    client: "Hotel Business",
+    progress: 40,
+    budget: 2000,
+    deadline: "2026-11-10",
+    startDate: "2026-09-01",
+    description:
+      "Hotel management dashboard for viewing rooms, reservations, guests, and room availability.",
+    technologies: ["React", "TypeScript", "Sass", "Bootstrap"],
+    tasks: [
+      "Build dashboard",
+      "Create room management interface",
+      "Add reservation management",
+      "Implement room availability",
+      "Create guest management section",
+    ],
+  },
+];
+
+export default projects;
