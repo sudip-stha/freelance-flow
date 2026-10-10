@@ -1,6 +1,7 @@
 import React from "react";
 import { clientTableDetail } from "../data/clients.data";
 import Image from "next/image";
+import clientStatus from "@/utils/clientStatus";
 
 const ClientTableData = () => {
   return (
@@ -28,12 +29,18 @@ const ClientTableData = () => {
               {data.email}
             </span>
             <div className="min-w-58">
-              <span className="text-[11px] font-medium bg-accent px-2.5 py-1 rounded-4xl">
+              <span
+                className={`text-[11px] font-medium px-2.5 py-1 rounded-4xl ${clientStatus(data.status)}`}
+              >
                 {data.status}
               </span>
             </div>
-            <span className="min-w-40.5 font-medium text-primary-text text-sm">{data.projectCount}</span>
-            <span className="min-w-44 font-semibold text-primary-text text-md">${data.value}</span>
+            <span className="min-w-40.5 font-medium text-primary-text text-sm">
+              {data.projectCount}
+            </span>
+            <span className="min-w-44 font-semibold text-primary-text text-md">
+              ${data.value}
+            </span>
             <button className="cursor-pointer">
               <Image
                 src={"/icons/horizontalDotIcon.svg"}
