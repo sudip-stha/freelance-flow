@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import ClientSearch from "@/features/clients/components/ClientSearch";
+import ClientTableData from "@/features/clients/components/ClientTableData";
+import ClientTableTitle from "@/features/clients/components/ClientTableTitle";
 import Image from "next/image";
 
 const page = () => {
@@ -18,6 +20,10 @@ const page = () => {
         </Button>
       </div>
       <ClientSearch />
+      <div className="font-inter border-2 border-border rounded-2xl bg-card-bg shadow-md shadow-border">
+        <ClientTableTitle />
+        <ClientTableData />
+      </div>
     </div>
   );
 };
