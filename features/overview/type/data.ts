@@ -4,7 +4,7 @@ export interface OverviewStatData {
   iconUrl: string;
 }
 
-export interface StatCatdProps {
+export interface StatCardProps {
   data: OverviewStatData;
 }
 
