@@ -38,10 +38,10 @@ const ClientTableData = () => {
             <span className="min-w-40.5 font-medium text-primary-text text-sm">
               {data.projectCount}
             </span>
-            <span className="min-w-44 font-semibold text-primary-text text-md">
+            <span className="min-w-34 font-semibold text-primary-text text-md">
               ${data.value}
             </span>
-            <button className="cursor-pointer">
+            <button className="p-5 rounded-xl hover:bg-gray-300/40 cursor-pointer">
               <Image
                 src={"/icons/horizontalDotIcon.svg"}
                 alt=""
