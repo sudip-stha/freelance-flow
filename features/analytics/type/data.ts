@@ -11,3 +11,8 @@ export interface AnalyticStatData {
 export interface StatCardProps {
   data: AnalyticStatData;
 }
+
+export interface RevenueChartData {
+  value: number;
+  month: string;
+}

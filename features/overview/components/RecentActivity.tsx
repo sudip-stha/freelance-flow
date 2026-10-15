@@ -9,9 +9,9 @@ const RecentActivity = () => {
       <div className="flex justify-between items-center">
         <div>
           <h3 className="font-geist font-semibold text-xl">Recent activity</h3>
-          <p className="font-inter text-xs text-tertiary-text">
+          <span className="font-inter text-xs text-tertiary-text">
             A quiet log of what moved
-          </p>
+          </span>
         </div>
         <Link
           href="/analytics"

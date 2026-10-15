@@ -11,9 +11,9 @@ const ProjectsInMotion = () => {
           <h3 className="font-geist font-semibold text-xl">
             Projects in motion
           </h3>
-          <p className="font-inter text-xs text-tertiary-text">
+          <span className="font-inter text-xs text-tertiary-text">
             A quick read on your active work
-          </p>
+          </span>
         </div>
         <Link
           href="/projects"

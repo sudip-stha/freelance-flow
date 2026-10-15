@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import AnalyticStats from "@/features/analytics/components/AnalyticStats";
+import RevenueCard from "@/features/analytics/components/RevenueCard";
 import Image from "next/image";
 
 const page = () => {
@@ -22,8 +23,9 @@ const page = () => {
           Export summary
         </Button>
       </div>
-      <div>
+      <div className="flex flex-col gap-5">
         <AnalyticStats />
+        <RevenueCard />
       </div>
     </div>
   );

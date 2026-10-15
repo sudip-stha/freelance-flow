@@ -7,9 +7,9 @@ const TodayFocus = () => {
     <div className="flex flex-col gap-8 basis-[47%] bg-card-bg border-2 border-border p-6 rounded-2xl">
       <div>
         <h3 className="font-geist font-semibold text-xl">Today&apos;s focus</h3>
-        <p className="font-inter text-xs text-tertiary-text">
+        <span className="font-inter text-xs text-tertiary-text">
           Small steps, visible progress
-        </p>
+        </span>
       </div>
       <div className="flex flex-col gap-3">
         {todayFocus.map((data) => {
