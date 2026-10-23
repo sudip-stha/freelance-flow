@@ -15,4 +15,5 @@ export interface StatCardProps {
 export interface RevenueChartData {
   value: number;
   month: string;
+  hours: number;
 }
