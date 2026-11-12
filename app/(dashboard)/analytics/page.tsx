@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import AnalyticStats from "@/features/analytics/components/AnalyticStats";
 import RevenueCard from "@/features/analytics/components/RevenueCard";
+import WorkByProjectCard from "@/features/analytics/components/WorkByProjectCard";
 import Image from "next/image";
 
 const page = () => {
@@ -25,7 +26,10 @@ const page = () => {
       </div>
       <div className="flex flex-col gap-5">
         <AnalyticStats />
-        <RevenueCard />
+        <div className="flex gap-5">
+          <RevenueCard />
+          <WorkByProjectCard />
+        </div>
       </div>
     </div>
   );

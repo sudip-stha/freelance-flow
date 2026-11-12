@@ -17,3 +17,8 @@ export interface RevenueChartData {
   month: string;
   hours: number;
 }
+
+export interface WorkByProjectData {
+  company: string;
+  revenue: number;
+}

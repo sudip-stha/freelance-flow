@@ -13,7 +13,7 @@ import CustomTooltip from "./CustomTooltip";
 
 const RevenueChart = () => {
   return (
-    <ComposedChart data={revenueChartData} width={800} height={300}>
+    <ComposedChart data={revenueChartData} width={777} height={300}>
       <defs>
         <linearGradient id="revenueGradient" x1="0" x2="0" y1="0" y2="1">
           <stop offset="0%" stopColor="#004d43" stopOpacity={1} />
